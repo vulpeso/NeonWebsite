@@ -7,6 +7,6 @@ body{
     margin-top:100vh;
 }
 
-panel-body{
+.panel-body{
     color: #666 !important;
 }
