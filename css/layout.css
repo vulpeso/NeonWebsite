@@ -1,0 +1,12 @@
+body{
+    background-color: #081f31;
+    color: white;
+}
+
+.container-top{
+    margin-top:100vh;
+}
+
+panel-body{
+    color: #666 !important;
+}

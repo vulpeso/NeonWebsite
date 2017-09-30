@@ -1,0 +1,38 @@
+/**********************/
+/*     mobile menu    */
+/**********************/
+
+.side-bar{
+  position: fixed;
+  top: 0;
+  bottom:0;
+  opacity:0;
+  width: 100vw;
+  padding: 2em 10% 2em;
+  background: black;
+  transition: opacity 500ms ease-out 5ms;
+  overflow-y: scroll;
+  z-index: 4;
+  pointer-events: none;
+}
+.side-bar.visible{
+  opacity:1;
+  pointer-events: auto;
+}
+.side-bar li{
+  text-align: center;
+  font-size: 30px;
+  line-height: 1em;
+  list-style-type:none; 
+  margin-bottom: 0.5em;
+}
+.toggle{
+  position:fixed;
+  top:0;
+  right:0;
+  margin: 2% 3% 0 0;
+  font-size: 40px;
+  color: #fff;
+  z-index: 6;
+  cursor: pointer;
+}
