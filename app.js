@@ -17,6 +17,10 @@ angular.module('baitApp', ['ngAnimate', 'ui.router', 'ngResource'])
       .state('workshops', {
          url: '/workshops',
          templateUrl: 'view-workshops.html'
+      })
+	  .state('orgs', {
+         url: '/orgs',
+         templateUrl: 'view-orgs.html'
       });
    $urlRouterProvider.otherwise('/main');
 })
