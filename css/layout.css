@@ -4,13 +4,15 @@ body{
     font-size: 15px;
 }
 
+a, a:hover{
+    text-decoration: none;
+    color: #a3cc39;
+}
+
 .container-top{
     margin-top:100vh;
 }
 
-.panel-body{
-    color: #666 !important;
-}
 
 #page-views{
     opacity: 1;
@@ -20,7 +22,53 @@ body{
 /* animacje przejścia */
 #page-views.ng-enter,
 #page-views.ng-leave{ 
-   opacity:0;
+    opacity:0;
+}
+
+/* button */
+.neon-button {
+    font-size: 1.8vw;
+    padding: 10px 60px;
+    text-transform: uppercase;
+    opacity: .75;
+    border: 3px solid #19bfd5;
+    background: none;
+    border-radius: 16px!important;
+    padding: 16px 24px;
+    background-color: rgba(0,0,0,0) !important;
+    color: #fddc00;
+    font-size: 3rem;
+    cursor: pointer;
+    margin: 1.25rem 0;
+    box-shadow: 0 0 10px #19bfd5;
+    color: #fddc00!important;
+    text-shadow: 0 0 5px #fddc00!important;
+}
+.neon-button:hover{
+    opacity: 1;
+    border: 3px solid #19bfd5;
+    box-shadow: 0 0 20px #19bfd5;
+}
+
+.panel-heading{
+    cursor: pointer;
+}
+.panel{
+    border-color: #a3cc39;
+}
+.panel-body {
+    border-top-color: #a3cc39!important;
+    opacity: 0.7;
+}
+.panel, .panel-default{
+    background-color: rgba(0,0,0,0)!important;
+    color: white;
+}
+.panel-heading, .panel-heading{
+    background-color:#a3cc39!important;
+}
+.panel a:hover{
+    text-decoration: none;
 }
 
 /* elementy */
@@ -33,6 +81,12 @@ body{
 
 .footer{
     padding: 2em 0 3em;
+}
+.footer img{
+    left:0;right:0;
+    margin:auto;
+    padding: 1em;
+    width: 80%;
 }
 
 .partners{
