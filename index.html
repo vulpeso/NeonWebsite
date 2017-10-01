@@ -32,7 +32,8 @@
 <body ng-app="baitApp">
 
     <!-- mobile menu bar -->
-    <div class="toggle">=</div>
+    <a class="toggle" id="toggle"><s class="bar"></s><s class="bar"></s></a>
+    <!--<div class="toggle">=</div>-->
     <div class="side-bar">
         <ul>            
             <li><a ui-sref=".main">O Festiwalu</a></li>
@@ -44,14 +45,10 @@
     </div><!-- end mobile menu bar -->
 
     <!-- Angular View -->
-    <div class="wrapper" ui-view></div>
+    <div class="wrapper" id="page-views" ui-view></div>
     
     
-    <div class="container">
-        <div class="row">
-            <h1>Partnerzy...</h1>
-        </div>
-    </div>
+    
     <!-- Footer -->
     <div class="container">
         <div class="row">

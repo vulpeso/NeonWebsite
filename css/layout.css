@@ -10,3 +10,13 @@ body{
 .panel-body{
     color: #666 !important;
 }
+
+#page-views{
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+#page-views.ng-enter,
+#page-views.ng-leave{ 
+   opacity:0;
+}

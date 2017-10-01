@@ -5,9 +5,11 @@ $(function(){
     function toggle(){
         if(!menuVisible){
             $(".side-bar").toggleClass("visible");
+            $(".toggle").toggleClass("x");
             menuVisible = true;
         }else{
             $(".side-bar").removeClass("visible");
+            $(".toggle").removeClass("x");
             menuVisible = false;
         }
     }

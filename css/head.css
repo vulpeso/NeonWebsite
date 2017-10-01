@@ -22,6 +22,7 @@ body{
     width:100%;
     transition: 0.4s;
     overflow: hidden;
+    cursor: pointer;
 }
 .strip:nth-child(1){
     background: url("../img/img1.png");
