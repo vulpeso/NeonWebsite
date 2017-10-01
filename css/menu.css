@@ -14,6 +14,7 @@
   overflow-y: scroll;
   z-index: 4;
   pointer-events: none;
+  padding-top: 20vh;
 }
 .side-bar.visible{
   opacity:1;
@@ -23,7 +24,7 @@
   text-align: center;
   font-size: 30px;
   line-height: 1em;
-  list-style-type:none; 
+  list-style-type:none;
   margin-bottom: 0.5em;
 }
 /*
@@ -38,7 +39,7 @@
   cursor: pointer;
 }*/
 
-    
+
 .toggle {
   position:fixed;
   width: 50px;
@@ -46,7 +47,7 @@
   top: 30px;
   right: 30px;
   cursor: pointer;
-  z-index: 6;  
+  z-index: 6;
 }
 
 .toggle .bar {
@@ -84,4 +85,62 @@
   -moz-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
+}
+
+.menu-item{
+
+    margin-top: 6vh;
+}
+
+.neon-button{
+    font-size: 6vh;
+    text-decoration: none !important;
+}
+
+.neon-button.pink{
+    color: rgba(0,0,0,0.85);
+    text-shadow: 0px 0px 30px rgba(226, 23, 141, 1);
+    -webkit-text-stroke: 2px #E2178D;
+}
+
+.neon-button.pink:hover {
+    color: #ec5db1;
+    text-shadow: 0px 0px 30px rgba(226, 23, 141, 1);
+    -webkit-text-stroke: 2px #E2178D;
+}
+
+.neon-button.yellow {
+    color: rgba(0,0,0,0.85);
+    text-shadow: 0px 0px 20px rgba(253, 220, 0, 0.5);
+    -webkit-text-stroke: 2px #f7c15d;
+}
+
+.neon-button.yellow:hover {
+    color: rgb(243,229,102);
+    text-shadow: 0px 0px 30px rgba(253, 220, 0, 1);
+    -webkit-text-stroke: 2px #f7c15d;
+}
+
+.neon-button.blue {
+    color: rgba(0,0,0,0.85);
+    text-shadow: 0px 0px 30px rgba(11, 213, 226, 1);
+    -webkit-text-stroke: 2px rgb(0, 187, 211);
+}
+
+.neon-button.blue:hover{
+    color: rgb(11, 213, 226);
+    text-shadow: 0px 0px 30px rgba(11, 213, 226, 1);
+    -webkit-text-stroke: 2px rgb(0, 187, 211);
+}
+
+.neon-button.green {
+    color: rgba(0,0,0,0.85);
+    text-shadow: 0px 0px 20px rgba(187, 235, 89, 0.5);
+    -webkit-text-stroke: 2px rgb(156, 203, 61);
+}
+
+.neon-button.green:hover{
+    color: rgb(187, 235, 89);
+    text-shadow: 0px 0px 30px rgba(187, 235, 89, 1);
+    -webkit-text-stroke: 2px rgb(156, 203, 61);
 }
