@@ -26,7 +26,7 @@ a, a:hover{
 }
 
 /* button */
-.neon-button {
+.neon-button-border {
     font-size: 1.8vw;
     padding: 10px 60px;
     text-transform: uppercase;
@@ -44,7 +44,7 @@ a, a:hover{
     color: #fddc00!important;
     text-shadow: 0 0 5px #fddc00!important;
 }
-.neon-button:hover{
+.neon-button-border:hover{
     opacity: 1;
     border: 3px solid #19bfd5;
     box-shadow: 0 0 20px #19bfd5;
