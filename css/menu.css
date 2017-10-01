@@ -87,8 +87,12 @@
   transform: rotate(-45deg);
 }
 
-.menu-item{
+.main-menu{
+    padding: 0;
+    margin: 0;
+}
 
+.menu-item{
     margin-top: 6vh;
 }
 
