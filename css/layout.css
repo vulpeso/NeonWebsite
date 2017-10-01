@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Linotte-SemiBold';
+    src: url('Linotte-SemiBold-webfont.woff2') format('woff2'),
+         url('Linotte-SemiBold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body{
     background-color: #0b1238;
     color: white;
@@ -27,25 +36,26 @@ a, a:hover{
 
 /* button */
 .neon-button-border {
+    font-family: Linotte-SemiBold;
     font-size: 1.8vw;
     padding: 10px 60px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     opacity: .75;
     border: 3px solid #19bfd5;
     background: none;
     border-radius: 16px!important;
     padding: 16px 24px;
     background-color: rgba(0,0,0,0) !important;
-    color: #fddc00;
+    color: #a3cc39;
     font-size: 3rem;
     cursor: pointer;
     margin: 1.25rem 0;
     box-shadow: 0 0 10px #19bfd5;
-    color: #fddc00!important;
-    text-shadow: 0 0 5px #fddc00!important;
+    text-shadow: 0 0 5px #a3cc39!important;
 }
 .neon-button-border:hover{
     opacity: 1;
+    color: #fddc00!important;
     border: 3px solid #19bfd5;
     box-shadow: 0 0 20px #19bfd5;
 }
@@ -84,8 +94,9 @@ a, a:hover{
     padding-bottom: 3em;
 }
 .footer img{
-    left:0;right:0;
-    margin:auto;
+    left: 0;
+    right: 0;
+    margin: auto;
     padding: 1em;
     width: 80%;
 }
@@ -108,6 +119,16 @@ a, a:hover{
     margin: 0;
 }
 
+/* subpage header */
+.page-header{
+    min-height: 50vh;
+    border-bottom: none;
+}
+.page-header p{
+    max-width: 500px;
+}
+.page-header img{
+    max-height: 10em;
 .menu-item{
     margin-top: 6vh;
 }

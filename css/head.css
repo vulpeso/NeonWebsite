@@ -101,13 +101,13 @@ body{
 
 /* położenie opisów */
 .event-info#event-info-1st{
-    transform: translate(10vw, 65vh) !important;
+    transform: translate(7vw, 50vh) !important;
 }
 .event-info#event-info-2nd{
     transform: translate(30vw, 60vh) !important;
 }
 .event-info#event-info-3rd{
-    transform: translate(60vw, 30vh) !important;
+    transform: translate(60vw, 40vh) !important;
 }
 
 .event-info span{
