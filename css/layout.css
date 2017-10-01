@@ -1,6 +1,7 @@
 body{
-    background-color: #081f31;
+    background-color: #0b1238;
     color: white;
+    font-size: 15px;
 }
 
 .container-top{
@@ -16,7 +17,28 @@ body{
     transition: opacity 0.3s;
 }
 
+/* animacje przejścia */
 #page-views.ng-enter,
 #page-views.ng-leave{ 
    opacity:0;
+}
+
+/* elementy */
+.description{
+    margin: 2em auto;
+    left: 0;
+    right: 0;
+    max-width: 800px;
+}
+
+.footer{
+    padding: 2em 0 3em;
+}
+
+.partners{
+    text-align: center;
+    background-color: white;
+    margin:0;
+    width:100%;
+    color: #0b1238;
 }
