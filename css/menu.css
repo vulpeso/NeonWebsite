@@ -86,3 +86,33 @@
   transform: rotate(-45deg);
 }
 
+
+
+
+
+/********************/
+/* widget facebooka */
+/********************/
+
+.fb-widget{
+    position:fixed;
+    width: 340px;
+    max-width: 90vw;
+    max-height: 90vh;
+    padding-top: 2px;
+    margin:0;
+    right: -220px;
+    bottom: -555px;
+    z-index:6;
+    background: #3B5998;
+    transition: right 500ms ease-in-out, bottom 500ms ease-in-out;
+}
+
+.fb-widget:hover{
+    right: 0px;
+    bottom: -5px;
+}
+
+.fb-widget .fb-top-bar{
+    cursor: pointer;
+}
