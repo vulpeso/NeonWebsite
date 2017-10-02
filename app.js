@@ -8,19 +8,31 @@ angular.module('baitApp', ['ngAnimate', 'ui.router', 'ngResource'])
       })
       .state('hack', {
          url: '/hack',
-         templateUrl: 'view-hack.html'
+         templateUrl: 'view-hack.html',
+          onEnter: function ($window) {
+            $window.scrollTo(0,0);
+         } 
       })
       .state('robots', {
          url: '/robots',
-         templateUrl: 'view-robots.html'
+         templateUrl: 'view-robots.html',
+          onEnter: function ($window) {
+              $window.scrollTo(0,0);
+          }
       })
       .state('workshops', {
          url: '/workshops',
-         templateUrl: 'view-workshops.html'
+         templateUrl: 'view-workshops.html',
+          onEnter: function ($window) {
+              $window.scrollTo(0,0);
+          }
       })
 	  .state('orgs', {
          url: '/orgs',
-         templateUrl: 'view-orgs.html'
+         templateUrl: 'view-orgs.html',
+          onEnter: function ($window) {
+              $window.scrollTo(0,0);
+          }
       });
    $urlRouterProvider.otherwise('/main');
 })
