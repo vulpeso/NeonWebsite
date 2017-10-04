@@ -13,7 +13,6 @@ a, a:hover{
     margin-top:100vh;
 }
 
-
 #page-views{
     opacity: 1;
     transition: opacity 0.3s;
@@ -25,7 +24,7 @@ a, a:hover{
     opacity:0;
 }
 
-/* button */
+/* button with border*/
 .neon-button-border {
     font-family: 'Nunito', sans-serif;
     font-size: 1.8vw;
@@ -44,6 +43,7 @@ a, a:hover{
     box-shadow: 0 0 10px #19bfd5;
     text-shadow: 0 0 5px #a3cc39!important;
 }
+
 .neon-button-border:hover{
     opacity: 1;
     color: rgba(187, 235, 89, 1)!important;
@@ -54,20 +54,25 @@ a, a:hover{
 .panel-heading{
     cursor: pointer;
 }
+
 .panel{
     border-color: #a3cc39;
 }
+
 .panel-body {
     border-top-color: #a3cc39!important;
     opacity: 0.7;
 }
+
 .panel, .panel-default{
     background-color: rgba(0,0,0,0)!important;
     color: white;
 }
+
 .panel-heading, .panel-heading{
     background-color:#a3cc39!important;
 }
+
 .panel a:hover{
     text-decoration: none;
     color: black;
@@ -85,6 +90,7 @@ a, a:hover{
     padding-top: 2em;
     padding-bottom: 3em;
 }
+
 .footer img{
     left: 0;
     right: 0;
@@ -100,13 +106,11 @@ a, a:hover{
     width:100%;
     color: #0b1238;
 }
+
 .paragraph-container{
     padding: 0 15px 0 15px;
     text-align: justify;
 }
-
-
-
 
 
 /* subpage header */
@@ -128,22 +132,12 @@ a, a:hover{
     z-index: -1;
     height: 90vh;
 }
-.header-content{
-    padding: 15px;
-}
+
 .header-description{
-    position: absolute;
-    bottom: 5em;
-    padding: 0 15px 0 15px;
+
+    padding-top: 13vh;
     text-align: justify;
 }
-
-
-
-
-
-
-
 
 .neon-h1{
     font-size: 4em;
@@ -153,13 +147,7 @@ a, a:hover{
     -webkit-text-stroke: 1px rgb(156, 203, 61);
 }
 
-
-
-.main-menu{
-    padding: 0;
-    margin: 0;
-}
-
+/* menu buttons */
 
 .neon-button{
     font-size: 6vh;
@@ -214,3 +202,26 @@ a, a:hover{
     text-shadow: 0px 0px 30px rgba(187, 235, 89, 1);
     -webkit-text-stroke: 1px rgb(156, 203, 61);
 }
+
+/* hack-view */
+
+.fa-feature-display{
+    color: rgb(187, 235, 89);
+    text-shadow: 0px 0px 15px rgba(187, 235, 89, 1);
+    -webkit-text-stroke: 1px rgb(156, 203, 61);
+}
+
+.neon-h2{
+    color: rgb(187, 235, 89);
+    text-shadow: 0px 0px 15px rgba(187, 235, 89, 1);
+    -webkit-text-stroke: 1px rgb(156, 203, 61);
+}
+
+@media only screen and (max-width: 400px){
+
+    .fa-feature-display{
+
+        padding-top: 20px;
+    }
+}
+

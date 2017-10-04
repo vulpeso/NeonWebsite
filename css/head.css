@@ -4,8 +4,6 @@ body{
     margin:0;
 }
 
-
-
 @font-face {
     font-family: dokchamp;
     src: url(dokchamp.ttf);
@@ -15,7 +13,6 @@ body{
     overflow: hidden;
 }
 
-
 .strip{
     position: absolute;
     height:100%;
@@ -24,6 +21,7 @@ body{
     overflow: hidden;
     cursor: pointer;
 }
+
 .strip:nth-child(1){
     background: url("../img/img1.png");
     background-repeat: no-repeat;
@@ -32,12 +30,15 @@ body{
     clip-path: polygon(0% 0%, 35% 0%, 30% 100%, 0% 100%);
     z-index:1;
 }
+
 .strip-container:hover .strip:nth-child(1){
     clip-path: polygon(0% 0%, 25% 0%, 20% 100%, 0% 100%);
 }
+
 .strip:nth-child(1):hover{
     clip-path: polygon(0% 0%, 55% 0%, 50% 100%, 0% 100%) !important;
 }
+
 .strip:nth-child(2){
     background: url("../img/img2.png");
     background-repeat: no-repeat;
@@ -45,6 +46,7 @@ body{
     background-position: center;
     /*clip-path: polygon(25% 0%, 80% 0%, 75% 100%, 20% 100%);*/
 }
+
 .strip:nth-child(3){
     background: url("../img/img3.png");
     background-repeat: no-repeat;
@@ -52,9 +54,11 @@ body{
     background-position: center;
     clip-path: polygon(70% 0%, 100% 0%, 100% 100%, 65% 100%);
 }
+
 .strip-container:hover .strip:nth-child(3){
     clip-path: polygon(80% 0%, 100% 0%, 100% 100%, 75% 100%);
 }
+
 .strip:nth-child(3):hover{
     clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 45% 100%) !important;
 }
