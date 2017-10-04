@@ -84,6 +84,7 @@ a, a:hover{
     left: 0;
     right: 0;
     max-width: 800px;
+    text-align: justify;
 }
 
 .footer{
@@ -134,9 +135,17 @@ a, a:hover{
 }
 
 .header-description{
-
     padding-top: 13vh;
     text-align: justify;
+}
+
+.text-row{
+    text-align: justify !important;
+}
+
+.description-row{
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .neon-h1{
