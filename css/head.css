@@ -130,14 +130,26 @@ body{
     display:none;
 }
 
+.mobile-logo{
+    display: none;
+}
+.desktop-logo{
+    display: block;
+}
+
 
 @media only screen and (max-width: 600px){
 
     .mobile-menu{
         display: block;
     }
-    
     .desktop-menu {
+        display: none !important;
+    }
+    .mobile-logo{
+        display: block;
+    }
+    .desktop-logo{
         display: none !important;
     }
 }

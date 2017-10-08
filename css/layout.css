@@ -52,7 +52,7 @@ a, a:hover{
 }
 
 .neon-button-border.menu-button{
-    min-width: 300px;
+    width: 300px;
 }
 
 .panel-heading{
@@ -124,7 +124,7 @@ a, a:hover{
     height: 70vh;
     min-height: 600px;
     border-bottom: none;
-    padding: 3em 0;
+    padding: 10em 0 3em 0;
     margin:0;
 }
 .page-header p{
