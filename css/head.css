@@ -63,11 +63,6 @@ body{
     clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 45% 100%) !important;
 }
 
-
-
-
-
-
 .event-info{
     position: absolute;
     z-index:2;
@@ -119,8 +114,6 @@ body{
     padding: 0em 0.2em;
 }
 
-
-
 #header-logo{
     position: absolute;
     top: 1em;
@@ -128,4 +121,23 @@ body{
     z-index: 3;
     width: 500px;
     max-width:70vw;
+}
+
+/*mobile menu*/
+
+.mobile-menu{
+    margin-top: 20vh;
+    display:none;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    .mobile-menu{
+        display: block;
+    }
+    
+    .desktop-menu {
+        display: none !important;
+    }
 }
