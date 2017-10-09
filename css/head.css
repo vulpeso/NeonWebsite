@@ -135,12 +135,15 @@ body{
 .mobile-logo{
     display: none;
 }
+.mobile-logo img{
+    max-height: 100px!important;    
+}
 .desktop-logo{
     display: block;
 }
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 1000px){
 
     .mobile-menu{
         display: block;

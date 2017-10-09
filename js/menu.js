@@ -1,5 +1,5 @@
 $(function(){
-	    	
+
     // mobile sidebar menu
     var menuVisible = false;
     function toggle(){
@@ -50,16 +50,10 @@ $(function(){
         if($(this).length > 0) {
             var $html = $(this).html();
             $html = $html.replace(/(\s)([\S])[\s]+/g, "$1$2&nbsp;");
-            
              $(this).empty().html($html);
         }
     }
 })(jQuery);
 $(document).ready(function(){
         $('p').each(function(){$(this).removeOrphans();});
-        
-        $("#partners a").on("click", function(){
-        console.log($(this).attr('href'));
-        window.open($(this).attr('href'),"_self");
-    });
 });
