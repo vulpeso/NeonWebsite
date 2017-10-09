@@ -110,6 +110,21 @@ a, a:hover{
     margin:0;
     width:100%;
     color: #0b1238;
+    padding: 1em 0 3em;
+}
+
+.partners-img{
+    max-height: 120px;
+    max-width: 120px;
+    margin:auto;
+    top:0;bottom:0;left:0;right:0;
+}
+
+.partners-img-2{
+    max-height: 120px;
+    max-width: 240px;
+    margin:auto;
+    top:0;bottom:0;left:0;right:0;
 }
 
 .paragraph-container{
@@ -121,8 +136,7 @@ a, a:hover{
 /* subpage header */
 .page-header{
     position: relative;
-    height: 70vh;
-    min-height: 600px;
+    min-height: 70vh;
     border-bottom: none;
     padding: 10em 0 3em 0;
     margin:0;
@@ -150,10 +164,23 @@ a, a:hover{
 .description-row{
     padding-left: 15px;
     padding-right: 15px;
+    text-align: justify;
+}
+
+.description-row-main{
+    padding: 2em 0;
+}
+
+.description-row-main p{
+    max-width: 1000px;
+    left:0;right:0;
+    margin:auto;
+    padding: 15px;
+    text-align: justify;
 }
 
 .neon-h1{
-    font-size: 4em;
+    font-size: 3.5em;
     font-family: 'Nunito', sans-serif;
     color: rgb(187, 235, 89);
     text-shadow: 0px 0px 30px rgba(187, 235, 89, 1);
@@ -178,6 +205,18 @@ a, a:hover{
     color: #ec5db1;
     text-shadow: 0px 0px 30px rgba(226, 23, 141, 1);
     -webkit-text-stroke: 1px #E2178D;
+}
+
+.neon-button.red{
+    color: rgba(0,0,0,0.85);
+    text-shadow: 0px 0px 30px rgba(248, 18, 14, 1);
+    -webkit-text-stroke: 1px #F8120E;
+}
+
+.neon-button.red:hover {
+    color: #F8120E;
+    text-shadow: 0px 0px 30px rgba(248, 18, 14, 1);
+    -webkit-text-stroke: 1px #F8120E;
 }
 
 .neon-button.yellow {

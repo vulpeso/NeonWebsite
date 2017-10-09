@@ -15,10 +15,10 @@
     </div>
 </div>
 <div class="desktop-logo"> 
-    <img id="header-logo" class="img-responsive" src="img/bait_bestorg.svg"></img>
+    <a ui-sref="^.main"><img id="header-logo" class="img-responsive" src="img/bait_bestorg.svg"></img></a>
 </div>
 <div class="mobile-logo"> 
-    <img id="header-logo" class="img-responsive" src="img/bait_logo_white.svg"></img>
+    <a ui-sref="main"><img id="header-logo" class="img-responsive" src="img/bait_logo_white.svg"></img></a>
 </div>
 
 <div class="container">
@@ -53,6 +53,13 @@
         </div>
     </div>
 </div>
+
+<div class="container">
+    <div class="row text-center">
+        <h1>Zapisy startują już 5 listopada!</h1>
+    </div>
+</div>
+
 <div class="container">
     <h1>FAQ</h1>
 </div>
@@ -68,7 +75,7 @@
                   </h4>
                 </div>
                 <div id="collapse1" class="panel-collapse collapse">
-                  <div class="panel-body">Wziąć udział może każda osoba posiadająca status studenta polskiej uczelni publicznej.</div>
+                  <div class="panel-body">Warunek jest jeden - musisz mieć status studenta polskiej uczelni publicznej. Nie ma znaczenia czy klepiesz kod szybciej niż mówisz, czy dopiero zaczynasz swoją przygodę z IT. Może jesteś grafikiem, albo specjalistą w googlowaniu potrzebnych informacji? Ważne, że chcesz stworzyć w 24h projekt i przedstawić go szerszej publiczności!</div>
                 </div>
               </div>
               <div class="panel panel-default">
@@ -93,6 +100,28 @@
                   <div class="panel-body">Dopuszczamy drużyny 2-4 osobowe.</div>
                 </div>
               </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion1" data-target="#collapse4">
+                    Czy będą nagrody?</a>
+                  </h4>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse">
+                  <div class="panel-body">Oczywiście że tak! Nagrodzimy najlepsze projekty, które Jury wybierze na podstawie Waszych prezentacji.</div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion1" data-target="#collapse5">
+                    Czy musimy mieć już pomysł co robić?</a>
+                  </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse">
+                  <div class="panel-body">Najlepsze idee rodzą się najpóźniej. Jeśli jeszcze nie macie żadnej wizji, możecie spróbować określić cel w trakcie hackathonu i przedyskutować go z mentorami. Ale pamiętajcie - 24h to wcale nie tak dużo czasu!</div>
+                </div>
+              </div>
             </div>
         </div>
         <div class="col-sm-6">
@@ -100,37 +129,60 @@
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion2" data-target="#collapse4">
+                    <a data-toggle="collapse" data-parent="#accordion2" data-target="#collapse6">
                     Co jeśli nie udało mi się skompletować zespołu?</a>
                   </h4>
                 </div>
-                <div id="collapse4" class="panel-collapse collapse">
+                <div id="collapse6" class="panel-collapse collapse">
                   <div class="panel-body">Żaden problem. Zaaplikuj indywidualnie. W dniu hackathonu pomożemy Ci znaleźć resztę zespołu.</div>
                 </div>
               </div>
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion2" data-target="#collapse5">
+                    <a data-toggle="collapse" data-parent="#accordion2" data-target="#collapse7">
                     Czy udział w Hackathonie jest płatny?</a>
                   </h4>
                 </div>
-                <div id="collapse5" class="panel-collapse collapse">
-                  <div class="panel-body">Nie, udział jest bezpłatny.</div>
+                <div id="collapse7" class="panel-collapse collapse">
+                  <div class="panel-body">Udział jest całkowicie bezpłatny.</div>
                 </div>
               </div>
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion2" data-target="#collapse6">
-                    Czy będą nagrody?</a>
+                    <a data-toggle="collapse" data-parent="#accordion2" data-target="#collapse8">
+                    Co jeśli nie dam rady siedzieć przed komputerem przez 24h?</a>
                   </h4>
                 </div>
-                <div id="collapse6" class="panel-collapse collapse">
-                  <div class="panel-body">Tak.</div>
+                <div id="collapse8" class="panel-collapse collapse">
+                  <div class="panel-body">Spokojnie, hackathon wcale nie oznacza konieczności pracy nad projektem non-stop przez 24h. Możecie dyskutować z innymi drużynami przy kawie. Do waszej dyspozycji będą też planszówki, konsole i pufki na których będziecie mogli odpocząć!</div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion2" data-target="#collapse9">
+                    Czy mogę wrócić do domu na noc?</a>
+                  </h4>
+                </div>
+                <div id="collapse9" class="panel-collapse collapse">
+                  <div class="panel-body">Pewnie że tak, ale możesz też zdrzemnąć się na pufce w strefie chilloutu. Na pewno zaoszczędzisz w ten sposób mnóstwo czasu! A może wpadniesz na genialny pomysł zaraz po przebudzeniu i odrazu wskoczysz w wir pracy?</div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion2" data-target="#collapse10">
+                    Co zrobić, jeśli nie ma tutaj odpowiedzi na moje pytanie?</a>
+                  </h4>
+                </div>
+                <div id="collapse10" class="panel-collapse collapse">
+                  <div class="panel-body">Skontaktuj się z nami! Napisz mail na adres bartosz.gaj@best.krakow.pl</div>
                 </div>
               </div>
             </div>
         </div>
     </div>
 </div>
+<hr/>

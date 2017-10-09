@@ -5,21 +5,21 @@
 			<div id="event-info-1st" class="event-info" >
 				<h1><span class="event-info-span">Turniej Robotów</span></h1>
 				<div class="event-info-desc">
-					<h2>6-10.11</h2>
-					<div class="paragraph-container">
+					<p class="paragraph-container">
+					    <h2>6-10.11</h2>
 						Zbierz 3-osobową drużynę, zbudujcie robota LEGO Mindstorms w trakcie warsztatów i zmierzcie się z pozostałymi uczestnikami w Finale Turnieju Robotów.
-					</div>
+					</p>
 				</div>
 			</div>
 		</div>
 		<div id="strip-2nd" class="strip">
 			<div id="event-info-2nd" class="event-info">
 				<h1><span class="event-info-span">Hackathon</span></h1>
-				<div class="event-info-desc">
-					<h2>26-27.11</h2>
-					<div class="paragraph-container">
+				<div class="event-info-desc">					
+					<p class="paragraph-container">
+					    <h2>26-27.11</h2>
 						W 24 godziny stwórz projekt, który zachwyci wszystkich. Użyj przy tym najnowszych technologii którą pomogą Ci okiełznać nasi eksperci.
-					</div>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -27,10 +27,10 @@
 			<div id="event-info-3rd" class="event-info">
 				<h1><span class="event-info-span">Warsztaty IT</span></h1>
 				<div class="event-info-desc">
-					<h2>13-14.11</h2>
-					<div class="paragraph-container">
+					<p class="paragraph-container">
+					    <h2>13-14.11</h2>
 						Podczas wykładów i warsztatów usłyszysz o nowinkach z branży IT, oraz nauczysz się umiejętności, które pozwolą Ci zaistnieć na rynku pracy.
-					</div>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -39,13 +39,13 @@
 	<div class="container mobile-menu">
 		<div class="row">
 			<div class="row text-center">
-				<a type="button" class="btn btn-primary btn-lg neon-button-border menu-button" ui-sref=".hack">Hackathon</a>
+				<a type="button" class="btn btn-primary btn-lg neon-button-border menu-button" ui-sref="hack">Hackathon</a>
 			</div>
 			<div class="row text-center">
-				<a type="button" class="btn btn-primary btn-lg neon-button-border menu-button" ui-sref=".robots">Turniej Robotów</a>
+				<a type="button" class="btn btn-primary btn-lg neon-button-border menu-button" ui-sref="^.robots">Turniej Robotów</a>
 			</div>
 			<div class="row text-center">
-				<a type="button" class="btn btn-primary btn-lg neon-button-border menu-button" ui-sref=".workshops">Warsztaty IT</a>
+				<a type="button" class="btn btn-primary btn-lg neon-button-border menu-button" ui-sref="^.workshops">Warsztaty IT</a>
 			</div>
 		</div>
 	</div>
@@ -59,7 +59,7 @@
 <div class="container container-top"></div>
 
 <div class="container">
-    <div class="row description-row">
+    <div class="row description-row-main">
         <p>
 			BAIT, czyli BEST Automatics &amp; IT Festival, to projekt organizowany już po raz ósmy przez Stowarzyszenie Studentów BEST AGH Kraków. Umożliwiamy pasjonatom szeroko pojętego programowania i nowoczesnych technologii rozwinięcie swoich umiejętności w dziedzinach informatyki, robotyki i elektroniki oraz wzięcie udziału w wielu atrakcyjnych konkursach, w których zostanie sprawdzona ich pomysłowość, umiejętności techniczne oraz zdolność do rozwiązywania problemów natury inżynierskiej. Wszystko to w atmosferze współzawodnictwa i dobrej zabawy.
         </p>
@@ -67,11 +67,51 @@
 </div>
 
 
-<div class="container partners">
+<div id="partners" class="container partners">
     <div class="row">
         <h1>Nasi Partnerzy</h1>
     </div>
     <div class="row">
-        <img src="" alt="">
+        <h3>Patroni honorowi</h3>
+    </div>
+    <div class="row">
+        <div class="col-sm-3"><a href="http://agh.edu.pl"><img src="img/logos/AGH.png" alt="AGH" class="responsive-img partners-img"></a></div>
+        <div class="col-sm-3"><a href="https://www.eaiib.agh.edu.pl/"><img src="img/logos/EAIIB2.png" alt="EAIIB" class="responsive-img partners-img"></a></div>
+        <div class="col-sm-3"><a href="http://www.iet.agh.edu.pl/pl/"><img src="img/logos/IET.png" alt="IET" class="responsive-img partners-img"></a></div>
+        <div class="col-sm-3"><a href="http://www.imir.agh.edu.pl/"><img src="img/logos/IMIR.png" alt="IMIR" class="responsive-img partners-img"></a></div>
+    </div>
+    <div class="row">
+        <h3>Sponsorzy</h3>
+    </div>
+    <div class="row">
+        <div class="col"><a href="https://antsolutions.eu/"><img src="img/logos/Ant.png" alt="" class="responsive-img partners-img-2"></a></div>
+    </div>
+    <div class="row">
+        <h3>Parnerzy merytoryczni</h3>
+    </div>
+    <div class="row">
+        <div class="col"><a href="http://kreatech.pl/"><img src="img/logos/Kreatech.png" alt="" class="responsive-img partners-img-2"></a></div>
+    </div>
+    <div class="row">
+        <h3>Patroni medialni</h3>
+    </div>
+    <div class="row">
+        <div class="col-sm-2"><a href="http://www.podajdalej.info.pl/"><img src="img/logos/PodajDalej.png" alt="" class="responsive-img partners-img"></a></div>
+        <div class="col-sm-2"><a href="http://www.dlastudenta.pl/"><img src="img/logos/dlaStudenta.png" alt="" class="responsive-img partners-img"></a></div>
+        <div class="col-sm-2"><a href="http://radiofonia.krakow.pl/"><img src="img/logos/RadioFonia.png" alt="" class="responsive-img partners-img"></a></div>
+        <div class="col-sm-2"><a href="http://www.studentnews.pl/"><img src="img/logos/Studentnews.png" alt="" class="responsive-img partners-img"></a></div>
+        <div class="col-sm-2"><a href="https://4programmers.net/"><img src="img/logos/4programmers.png" alt="" class="responsive-img partners-img"></a></div>
+        <div class="col-sm-2"><a href="http://www.krakow.pl/"><img src="img/logos/Krakow.png" alt="" class="responsive-img partners-img"></a></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2"><a href="http://www.linux-magazine.pl/"><img src="img/logos/LINUX_magazine.png" alt="" class="responsive-img partners-img"></a></div>
+        <div class="col-sm-2"><a href="http://mlodytechnik.pl/"><img src="img/logos/mtechnik.png" alt="" class="responsive-img partners-img"></a></div>
+        <div class="col-sm-2"><a href="http://www.omgkrk.com/"><img src="img/logos/omgkrk.png" alt="" class="responsive-img partners-img"></a></div>
+        <div class="col-sm-2"><a href="http://www.startupmagazine.pl/"><img src="img/logos/startup.png" alt="" class="responsive-img partners-img"></a></div>
+        <div class="col-sm-2"><a href="http://www.praca.pl/"><img src="img/logos/pracapl.png" alt="" class="responsive-img partners-img"></a></div>
+        <div class="col-sm-2"><a href="https://bulldogjob.pl/"><img src="img/logos/bulldogjob.png" alt="" class="responsive-img partners-img"></a></div>
+    </div>
+    <div class="row">
+        <div class="col"><a href="http://mamstartup.pl/"><img src="img/logos/mamstartup.png" alt="" class="responsive-img partners-img"></a></div>
     </div>
 </div>
